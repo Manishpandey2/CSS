@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(back.png);
+            font-family: sans-serif;
+        }
+        h1{
+            margin-top: 0;
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+        h2{
+            font-size: 30px;
+        }
+        h2, h1{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .container{
+            width: 80%;
+            max-width: 500px;
+            background-color: burlywood;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header h1,header p, h2{
+            text-align: center;
+        }
+        hr{
+            height: 2px;
+            background-color: rgba(118, 16, 16, 0.989);
+            border-color: rgba(118, 16, 16, 0.989);
+            
+        }
+        .bottom-line{
+            margin-top: 15px;
+        }
+        .content{
+            display: flex;
+            justify-content: space-between;
+        }
+        .content p{
+            margin: 5px 0;
+        }
+        
+       
+        footer p{
+            text-align: center;
+            color: black;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+        footer a{
+            font-size: 14px;
+            color: black;
+        }
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: -25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CAMPER CAFE</h1>
+            <P><i>Est.</i> 2020</P>
+            
+        </header>
+        <hr>
+        <section>
+            <h2>Coffee</h2>
+            <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
+            <!-- <img src="coffe.png" alt="Coffe logo"> -->
+            <article class="content">
+                <p class="flavour">French Vanilla</p><p class="price">3.00</p>
+            </article>
+            <article class="content">
+                <p class="flavour">Caramel Macchiato</p><p class="price">3.75</p>
+            </article>
+            <article class="content">
+                <p class="flavour">Pumpkin Spic</p><p class="price">3.50</p>
+            </article>
+            <article class="content">
+                <p class="flavour">HazeLnut</p><p class="price">4.00</p>
+            </article>
+            <article class="content">
+                <p class="flavour">Mocha</p><p class="price">4.50</p>
+            </article>
+        </section>
+        <section>
+            <h2>Desserts</h2>
+            <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+            <!-- <img src="coffe.png" alt="Coffe logo"> -->
+            <article class="content">
+                <p class="flavour">Donut</p><p class="price">1.50</p>
+            </article>
+            <article class="content">
+                <p class="flavour">Cherry Pie</p>
+                <p class="price">2.75</p>
+            </article>
+            <article class="content">
+                <p class="flavour">cheesecake</p>
+                <p class="price">3.00</p>
+            </article>
+            <article class="content">
+                <p class="flavour">Cinnamon Roll</p>
+                <p class="price">2.50</p>
+            </article>
+        </section>
+        <hr class="bottom-line">
+        <footer>
+            <p><a href="#">Visit our website</a></P>
+            <p>123 Manish Pandey Jindabad</p>
+        </footer>
+    </div>
+</body>
+</html>
